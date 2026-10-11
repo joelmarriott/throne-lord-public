@@ -1,6 +1,6 @@
 # Throne Lord Banners & Thrones Discord Bot
 
-Public Information for the Banners &amp; Thrones "Throne Lord" Discord Bot founded by Duo Forge Games.
+Public Information for the [Banners &amp; Thrones](https://bannersandthrones.com/) "Throne Lord" Discord Bot founded by Duo Forge Games.
 
 ## Contact
 
@@ -22,3 +22,13 @@ https://discord.com/oauth2/authorize?client_id=1558140702284587158
 # Feature Requests and Bugs
 
 Create an issue on the issues tab, alternatively join the development discord!
+
+# Command Reference
+## Worlds
+### /set_world \<scope> \<world>
+*Sets the world for the current server (guild) or channel*
+
+**Scope:** `server` or `channel`\
+**World:** Select a world from the up-to-date list e.g. `world-1`
+### /world
+*Returns information about the current world*
