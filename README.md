@@ -32,3 +32,27 @@ Create an issue on the issues tab, alternatively join the development discord!
 **World:** Select a world from the up-to-date list e.g. `world-1`
 ### /world
 *Returns information about the current world*
+
+## Help
+### /about, /help, /discord, /report, /support
+*Provides help information and useful links for Throne Lord*
+
+## Banner Information
+### /banner \<banner name or tag>
+*Get information about the selected banner. On the information screen, you can choose one of the buttons to get further information (Time-out after 3 minutes)*
+
+## Player Information
+### /player \<player name>
+*Get information about the selected player. On the information screen, you can choose one of the buttons to get further information (Time-out after 3 minutes)*
+
+## Villages
+All coordinates can be provided in the following formats: `500 500` `500|500` `500:500`
+### Co-ordinate Recognition
+Incoming messages and embeds are checked for co-ordinates and the villages output to the same channel.
+
+Webhook embeds are scanned, incoming notifications will yield more detailed information.
+### /distance \<origin> \<destination>
+*Calculates the distance between two villages and shows the travel time for all units*
+
+## Mapping
+### /map \[banner_or_player] \[optional_list], \[conquers], \[barbarians], \[players]
